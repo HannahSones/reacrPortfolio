@@ -10,9 +10,11 @@ function Profile() {
   });
 
   return (
-    <section id="profile" class="profileSection">
+    <section className="profileBackground" style={{ 
+      backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Shapes/Profile.png'})` 
+    }}>
       <div class="container">
-        <div class="row cntrImg">
+        <div class="row">
           <div class="col-md-9" data-aos="fade-right" data-aos-duration="2000">
             <h2>Profile</h2>
             <hr />
@@ -45,6 +47,9 @@ function Profile() {
           />
         </div>
       </div>
+      {/* <img
+            src={`${process.env.PUBLIC_URL}/assets/Shapes/Profile.png`}
+          /> */}
     </section>
   );
 }

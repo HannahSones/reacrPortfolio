@@ -18,6 +18,10 @@ hr {
     display: inline-block;
 }
 
+.container {
+    padding: 50px 10px 50px 10px;
+}
+
 
 /* ========== Nav Bar ========== */
 
@@ -55,16 +59,47 @@ h1 span {
 
 /* ========== Profile ========== */
 
-
+.profileBackground  {
+    height: 650px;
+}
 
 /* ========== Projects ========== */
 
 
+/* ========== Scroll bar ========== */
+.parallaxBar {
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ========== Skillset ========== */
+.icon {
+    height: 175px;
+    width: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    background: #4a4e69;
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 50px;
+}
 
 /* ========== CV ========== */
 
-
+.CVDownload {
+    height: 500px;
+}
 
 
 /* ========== Contact ========== */
