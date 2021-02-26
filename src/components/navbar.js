@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <div className="menu">
+    <div className="menu fixed-top">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
