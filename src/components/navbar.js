@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+// import Navigation from "./navigation";
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
             <img
               src={`${process.env.PUBLIC_URL}/assets/Logo_transparent.png`}
               height="50"
-              alt=""
+              alt="Logo"
               loading="lazy"
             />
           </a>

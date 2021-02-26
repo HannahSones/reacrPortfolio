@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="fixed-bottom footer">
+    <footer className="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-9">
