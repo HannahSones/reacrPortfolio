@@ -1,6 +1,13 @@
 /* ========== Nav Bar ========== */
 
+.menu {
+    background-color: #22223b;
+    color: white;
+}
 
+.nav-link {
+    color: white;
+}
 
 /* ========== Banner ========== */
 
