@@ -1,9 +1,9 @@
 import React from 'react';
 import '../style.css';
-import './navbar.css';
+import './menu.css';
 // import Navigation from "./navigation";
 
-function Navbar() {
+function Menu() {
   return (
     <div className="menu fixed-top">
       <nav class="navbar navbar-expand-lg">
@@ -52,4 +52,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Menu;

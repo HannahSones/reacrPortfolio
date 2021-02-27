@@ -79,7 +79,7 @@ function Projects() {
           <div class="col-md-12">
             <a
               href="#profile"
-              class="btn btn-dark"
+              class="btn viewProjectsBtn"
               role="button"
               aria-pressed="true"
             >

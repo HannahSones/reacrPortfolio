@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar/navbar'
+import Menu from './components/Menu/menu'
 import Banner from './components/Banner/banner'
 import Profile from './components/Profile/profile'
 import Projects from './components/Projects/projects'
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      <Menu />
       <Banner />
       <Profile />
       <Projects />

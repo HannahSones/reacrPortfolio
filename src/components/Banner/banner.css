@@ -19,3 +19,12 @@ h1 {
 h1 span {
     color: #f2e9e4;
 }
+
+.profileBtn {
+    background-color: #4a4e69;
+    color: white;
+}
+
+.profileBtn:hover {
+    color: #c9ada7;
+}
