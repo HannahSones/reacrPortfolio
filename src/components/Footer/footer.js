@@ -4,6 +4,10 @@ import './footer.css';
 
 function Footer() {
   return (
+    <div>
+      <img class="footerBackground"
+            src={`${process.env.PUBLIC_URL}/assets/Shapes/Footer.png`}
+          />
     <footer className="footerContainer">
       <div class="container">
         <div class="row">
@@ -21,6 +25,7 @@ function Footer() {
         </div>
       </div>
     </footer>
+    </div>
   );
 }
 

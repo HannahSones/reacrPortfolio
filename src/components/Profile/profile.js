@@ -11,9 +11,7 @@ function Profile() {
   });
 
   return (
-    <section className="profileContainer" style={{ 
-      backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Shapes/Profile.png'})` 
-    }}>
+    <section class="profileContainer">
       <div class="container">
         <div class="row">
           <div class="col-md-9" data-aos="fade-right" data-aos-duration="2000">
@@ -47,10 +45,15 @@ function Profile() {
             data-aos-duration="2000"
           />
         </div>
+        <div class="container">
+        <div class="row centreBtn" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+            <div class="col-md-4">
+                <a class="btn" href="assets/Docs/HS_WebDevCV.pdf" target="_blank">View
+                    CV</a>
+            </div>
+        </div>
+    </div>
       </div>
-      {/* <img
-            src={`${process.env.PUBLIC_URL}/assets/Shapes/Profile.png`}
-          /> */}
     </section>
   );
 }

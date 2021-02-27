@@ -1,5 +1,6 @@
 .parallaxContainer {
     padding: 50px 10px 50px 10px;
+    height: 400px;
 
     min-height: 250px;
     background-attachment: fixed;

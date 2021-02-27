@@ -1,14 +1,20 @@
+.footerBackground {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
 .footerContainer {
-    background-color: #9a8c98;
+    background-color: #22223b;
     color: white;
-    padding: 30px 0px 30px 0px;
+    padding: 50px 10px 50px 10px;
 }
 
 .footerContainer a {
     padding: 5px 5px 5px 5px;
+    text-align: center;
 }
 
 .fab {
-    
     color: white;
 }

@@ -1,3 +1,9 @@
 .projectContainer {
     padding: 50px 10px 50px 10px;
 }
+
+.profileBackground {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "../style.css";
 import "./skillset.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -10,8 +11,13 @@ function Skillset() {
   });
 
   return (
-    <section class="skillsetContainer">
-      <div class="container">
+    <div>
+      <img
+        class="skillsetBackground"
+        src={`${process.env.PUBLIC_URL}/assets/Shapes/Skillset.png`}
+      />
+      <section className="skillsetContainer">
+        <div class="container">
         <div class="row">
           <div class="col-md-12">
             <h2 data-aos="fade-up" data-aos-duration="1500">
@@ -71,8 +77,9 @@ function Skillset() {
             </p>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </div>
   );
 }
 

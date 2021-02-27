@@ -11,6 +11,10 @@ function Projects() {
   });
 
   return (
+    <div>
+    <img class="profileBackground"
+            src={`${process.env.PUBLIC_URL}/assets/Shapes/Profile.png`}
+          />
     <div class="container projectContainer">
       <div class="col-md-12">
         <h2 data-aos="fade-up" data-aos-duration="1500">
@@ -84,6 +88,7 @@ function Projects() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

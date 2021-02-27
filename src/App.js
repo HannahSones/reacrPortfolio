@@ -3,9 +3,8 @@ import Navbar from './components/Navbar/navbar'
 import Banner from './components/Banner/banner'
 import Profile from './components/Profile/profile'
 import Projects from './components/Projects/projects'
-import ScrollBar from './components//Parallax/parallaxBar'
 import Skillset from './components/Skillset/skillset'
-import CV from './components/CV/cv'
+import ScrollBar from './components//Parallax/parallaxBar'
 import Footer from './components/Footer/footer'
 
 function App() {
@@ -16,9 +15,8 @@ function App() {
       <Banner />
       <Profile />
       <Projects />
-      <ScrollBar />
       <Skillset />
-      <CV />
+      <ScrollBar />
       <Footer />
 
     </div>
