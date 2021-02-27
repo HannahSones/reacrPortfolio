@@ -16,17 +16,17 @@ function Banner() {
         backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/computerCodeLaptop.png'})` 
       }}>
         <section>
-            <div class="container headerBlock">
-                <div class="row" data-aos="fade-up" data-aos-duration="2000">
-                    <div class="col-md-12">
+            <div className="container headerBlock">
+                <div className="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div className="col-md-12">
                         <h1>HANNAH<span>SONES</span></h1>
                         <p>Full stack web developer</p>
                         <hr />
                     </div>
                 </div>
-                <div class="row" data-aos="fade-up" data-aos-duration="2000">
-                    <div class="col-md-12">
-                        <a href="#profile" class="btn profileBtn" role="button" aria-pressed="true">Find out more</a>
+                <div className="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div className="col-md-12">
+                        <a href="#profile" className="btn profileBtn" role="button" aria-pressed="true">Find out more</a>
                     </div>
                 </div>
             </div>

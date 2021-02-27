@@ -11,10 +11,14 @@ function Profile() {
   });
 
   return (
-    <section class="profileContainer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9" data-aos="fade-right" data-aos-duration="2000">
+    <section className="profileContainer">
+      <div className="container">
+        <div className="row">
+          <div
+            className="col-md-9"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <h2>Profile</h2>
             <hr />
             <p>
@@ -38,21 +42,31 @@ function Profile() {
             </p>
           </div>
           <img
-            class="headshot col-md-3"
+            className="headshot col-md-3"
             src={`${process.env.PUBLIC_URL}/assets/HSHeadshot.png`}
             alt="Hannah Sones Headshot"
             data-aos="fade-left"
             data-aos-duration="2000"
           />
         </div>
-        <div class="container">
-        <div class="row centreBtn" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-            <div class="col-md-4">
-                <a class="btn" href="assets/Docs/HS_WebDevCV.pdf" target="_blank">View
-                    CV</a>
+        <div className="container">
+          <div
+            className="row centreBtn"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <div className="col-md-4">
+              <a
+                className="btn"
+                href="assets/Docs/HS_WebDevCV.pdf"
+                target="_blank"
+              >
+                View CV
+              </a>
             </div>
+          </div>
         </div>
-    </div>
       </div>
     </section>
   );

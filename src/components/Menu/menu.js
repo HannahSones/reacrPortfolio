@@ -6,9 +6,9 @@ import Navigation from '../Navigation/navigation';
 function Menu() {
   return (
     <div className="menu fixed-top">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             <img
               src={`${process.env.PUBLIC_URL}/assets/Logo_transparent.png`}
               height="50"
@@ -17,7 +17,7 @@ function Menu() {
             />
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-mdb-toggle="collapse"
             data-mdb-target="#navbarText"
@@ -25,7 +25,7 @@ function Menu() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i class="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>
           </button>
 
           <Navigation />

@@ -8,11 +8,11 @@ function ScrollBar() {
     <section className="parallaxContainer" style={{ 
         backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/LlightbulbIdea.png'})` 
       }}>
-        <div class="container">
-            <div class="row centredQuote">
-                <div class="col-md-8">
+        <div className="container">
+            <div className="row centredQuote">
+                <div className="col-md-8">
                     <h1>Have a project in mind?<span> See how <em>I can</em> help you</span></h1>
-                    <a href="#"><i class="far fa-hand-point-right"></i></a>
+                    <a href="#"><i className="far fa-hand-point-right"></i></a>
                 </div>
             </div>
         </div>

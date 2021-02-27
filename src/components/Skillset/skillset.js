@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import "../style.css";
-import "./skillset.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
+import '../style.css';
+import './skillset.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Skillset() {
   useEffect(() => {
@@ -13,28 +13,28 @@ function Skillset() {
   return (
     <div>
       <img
-        class="skillsetBackground"
+        className="skillsetBackground"
         src={`${process.env.PUBLIC_URL}/assets/Shapes/Skillset.png`}
       />
       <section className="skillsetContainer">
-        <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+        <div className="container">
+        <div className="row">
+          <div className="col-md-12">
             <h2 data-aos="fade-up" data-aos-duration="1500">
               Skillset
             </h2>
             <hr data-aos="fade-up" data-aos-duration="1500" />
           </div>
         </div>
-        <div class="row">
+        <div className="row">
           <div
-            class="col-md-4 skill"
+            className="col-md-4 skill"
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-duration="2000"
           >
-            <div class="icon">
-              <i class="fa fa-laptop"></i>
+            <div className="icon">
+              <i className="fa fa-laptop"></i>
             </div>
             <h4>Digital Design</h4>
             <p>
@@ -44,13 +44,13 @@ function Skillset() {
             </p>
           </div>
           <div
-            class="col-md-4 skill"
+            className="col-md-4 skill"
             data-aos="fade-up"
             data-aos-offset="400"
             data-aos-duration="2000"
           >
-            <div class="icon">
-              <i class="fa fa-code"></i>
+            <div className="icon">
+              <i className="fa fa-code"></i>
             </div>
             <h4>Web Development</h4>
             <p>
@@ -60,13 +60,13 @@ function Skillset() {
             </p>
           </div>
           <div
-            class="col-md-4 skill"
+            className="col-md-4 skill"
             data-aos="fade-up"
             data-aos-offset="600"
             data-aos-duration="2000"
           >
-            <div class="icon">
-              <i class="fa fa-heart"></i>
+            <div className="icon">
+              <i className="fa fa-heart"></i>
             </div>
             <h4>Creative Direction</h4>
             <p>
