@@ -1,7 +1,7 @@
-import React from 'react';
-import '../style.css';
-import './menu.css';
-// import Navigation from "./navigation";
+import React from "react";
+import "../style.css";
+import "./menu.css";
+import Navigation from "../Navigation/navigation";
 
 function Menu() {
   return (
@@ -27,25 +27,8 @@ function Menu() {
           >
             <i class="fas fa-bars"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Portfolio
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
+
+          <Navigation />
         </div>
       </nav>
     </div>
