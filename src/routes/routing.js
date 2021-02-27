@@ -7,13 +7,13 @@ import Footer from '../components/Footer/footer';
 
 const Routing = () => {
   return (
-    <Router basename="/">
+    <Router basename='/'>
       <Menu />
       <Route exact path='/' component={Home}/>
       <Route exact path='/portfolio' component={Portfolio}/>
       <Route exact path='/contact' component={Contact}/>
       <Footer />
-    <Router />
+    </Router>
   )
 }
 
