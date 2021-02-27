@@ -1,0 +1,18 @@
+.skillsetContainer {
+    padding: 50px 10px 50px 10px;
+}
+
+.icon {
+    height: 175px;
+    width: 175px;
+    line-height: 175px;
+    max-width: 100%;
+    background: #4a4e69;
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto 50px;
+}

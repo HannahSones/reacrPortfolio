@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
-import "./style.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
+import '../style.css';
+import './projects.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Projects() {
   useEffect(() => {
@@ -10,7 +11,7 @@ function Projects() {
   });
 
   return (
-    <div class="container">
+    <div class="container projectContainer">
       <div class="col-md-12">
         <h2 data-aos="fade-up" data-aos-duration="1500">
           Projects

@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
-import "./style.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
+import '../style.css';
+import './contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Contact() {
   useEffect(() => {

@@ -1,10 +1,11 @@
-import React from "react"
-import "./style.css"
+import React from 'react';
+import '../style.css';
+import './parallaxBar.css';
 
 function ScrollBar() {
 
   return (
-    <section className="parallaxBar" style={{ 
+    <section className="parallaxContainer" style={{ 
         backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/LlightbulbIdea.png'})` 
       }}>
         <div class="container">

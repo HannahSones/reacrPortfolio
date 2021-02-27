@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
-import "./style.css";
-import AOS from "aos";
+import React, { useEffect } from 'react';
+import '../style.css';
+import './banner.css';
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Banner() {
@@ -11,7 +12,7 @@ function Banner() {
       });
 
   return (
-    <header className="headerImage" style={{ 
+    <header className="bannerContainer" style={{ 
         backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/computerCodeLaptop.png'})` 
       }}>
         <section>

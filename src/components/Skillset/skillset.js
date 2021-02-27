@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./style.css";
+import "./skillset.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -10,7 +10,7 @@ function Skillset() {
   });
 
   return (
-    <section id="skills" class="skillsetSection">
+    <section class="skillsetContainer">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

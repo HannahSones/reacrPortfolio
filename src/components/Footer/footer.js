@@ -1,9 +1,10 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import '../style.css';
+import './footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footerContainer">
       <div class="container">
         <div class="row">
           <div class="col-md-9">

@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
-import "./style.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
+import '../style.css';
+import './cv.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function CV() {
   useEffect(() => {
@@ -10,7 +11,7 @@ function CV() {
   });
 
   return (
-    <section class="CVDownload" style={{ 
+    <section class="cvContainer" style={{ 
       backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/Shapes/CV.png'})` 
     }}>
     <div class="container">

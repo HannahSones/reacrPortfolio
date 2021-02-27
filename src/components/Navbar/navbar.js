@@ -1,5 +1,6 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import '../style.css';
+import './navbar.css';
 // import Navigation from "./navigation";
 
 function Navbar() {

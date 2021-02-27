@@ -1,0 +1,18 @@
+.bannerContainer {
+    height: 600px;
+}
+
+.headerBlock {
+    height: auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+h1 {
+    color:#22223b;
+}
+
+h1 span {
+    color: #f2e9e4;
+}

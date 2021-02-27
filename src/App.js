@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import Banner from './components/banner'
-import Profile from './components/profile'
-import Projects from './components/projects'
-import ScrollBar from './components/parallaxBar'
-import Skillset from './components/skillset'
-import CV from './components/cv'
-import Footer from './components/footer'
+import Navbar from './components/Navbar/navbar'
+import Banner from './components/Banner/banner'
+import Profile from './components/Profile/profile'
+import Projects from './components/Projects/projects'
+import ScrollBar from './components//Parallax/parallaxBar'
+import Skillset from './components/Skillset/skillset'
+import CV from './components/CV/cv'
+import Footer from './components/Footer/footer'
 
 function App() {
 
