@@ -1,12 +1,14 @@
-import React from 'react'
-import Routing from './routes/routing'
+import React from "react";
+import { HashRouter, Route, Link } from "react-router-dom";
+import Routing from "./routes/routing";
 
 function App() {
-
   return (
-    <div>
-      <Routing />
-    </div>
+    <HashRouter basename="/">
+      <div>
+        <Routing />
+      </div>
+    </HashRouter>
   );
 }
 
