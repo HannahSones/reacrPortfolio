@@ -1,7 +1,7 @@
-import React from "react";
-import "../style.css";
-import "./menu.css";
-import Navigation from "../Navigation/navigation";
+import React from 'react';
+import '../style.css';
+import './menu.css';
+import Navigation from '../Navigation/navigation';
 
 function Menu() {
   return (

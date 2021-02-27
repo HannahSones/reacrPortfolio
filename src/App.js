@@ -1,5 +1,5 @@
-import React from "react";
-import Routing from "./routes/routing";
+import React from 'react';
+import Routing from './routes/routing';
 
 function App() {
   return (
