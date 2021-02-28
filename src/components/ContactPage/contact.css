@@ -1,41 +1,41 @@
 .contactBackground {
-    margin-top: 70px;
-    height: 200px;
-    z-index: -1;
+  margin-top: 70px;
+  height: 200px;
+  z-index: -1;
 }
 
 .contactContainer {
-    text-align: center;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: center;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contactContainer form {
-    border-radius: 25px;
-    padding: 50px 20px 20px 20px;
-    background-color: #4a4e69;
-    color: white;
-    margin-top: 50px;
+  border-radius: 25px;
+  padding: 50px 20px 20px 20px;
+  background-color: #4a4e69;
+  color: white;
+  margin-top: 50px;
 }
 
 .form-outline {
-    background-color: white;
-    display: inline-block;
-    width: 80%;
+  background-color: white;
+  display: inline-block;
+  width: 80%;
 }
 
 .form-check-input {
-    background-color: #f2e9e4;
+  background-color: #f2e9e4;
 }
 
 .sendBtn {
-    background-color: #f2e9e4;
-    color: #22223b;
+  background-color: #f2e9e4;
+  color: #22223b;
 }
 
 .sendBtn:hover {
-    background-color: #c9ada7;
-    color: #22223b;
+  background-color: #c9ada7;
+  color: #22223b;
 }

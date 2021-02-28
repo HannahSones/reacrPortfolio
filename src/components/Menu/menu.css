@@ -1,12 +1,12 @@
 .menu {
-    background-color: #22223b;
-    color: white;
+  background-color: #22223b;
+  color: white;
 }
 
 .nav-link {
-    color: white;
+  color: white;
 }
 
 .nav-link:hover {
-    color: #c9ada7;
+  color: #c9ada7;
 }

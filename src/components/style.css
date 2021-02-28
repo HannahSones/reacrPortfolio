@@ -1,20 +1,22 @@
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    scroll-behavior: smooth;
-    width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
-body { 
-    margin: 0; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#22223b;
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #22223b;
 }
 
 hr {
-    background-color:#22223b;
-    border-style: solid;
-    height: 5px;
-    width: 10%;
-    opacity: 0px;
-    display: inline-block;
+  background-color: #22223b;
+  border-style: solid;
+  height: 5px;
+  width: 10%;
+  opacity: 0px;
+  display: inline-block;
 }
-

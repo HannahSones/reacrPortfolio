@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import '../style.css';
-import './portfolio.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import "../style.css";
+import "./portfolio.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Portfolio() {
   useEffect(() => {
@@ -393,7 +393,9 @@ function Portfolio() {
       </div>
 
       <div className="contactMe">
-        <h4>Ready to see how I can help you? <span>Get in touch</span></h4>
+        <h4>
+          Ready to see how I can help you? <span>Get in touch</span>
+        </h4>
         <Link to="/contact">
           <span>
             <button className="btn contactBtn">Contact me</button>

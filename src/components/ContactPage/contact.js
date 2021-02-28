@@ -13,12 +13,16 @@ function Contact() {
   return (
     <div>
       <div>
-      <img
-        className="contactBackground"
-        src={`${process.env.PUBLIC_URL}/assets/Shapes/Contact.png`}
-      ></img>
+        <img
+          className="contactBackground"
+          src={`${process.env.PUBLIC_URL}/assets/Shapes/Contact.png`}
+        ></img>
       </div>
-      <div className="contactContainer">
+      <div
+        className="contactContainer"
+        data-aos="fade-down"
+        data-aos-duration="2000"
+      >
         <h1>Let's talk</h1>
         <h4>
           I'd love to hear how I can help you. Send me a message using the
@@ -40,21 +44,14 @@ function Contact() {
           </div>
 
           <div className="form-outline mb-4">
-            <textarea
-              className="form-control"
-              rows="4"
-            ></textarea>
+            <textarea className="form-control" rows="4"></textarea>
             <label className="form-label" for="form4Example3">
               Message
             </label>
           </div>
 
           <div className="form-check d-flex justify-content-center mb-4">
-            <input
-              className="form-check-input me-2"
-              type="checkbox"
-              value=""
-            />
+            <input className="form-check-input me-2" type="checkbox" value="" />
             <label className="form-check-label" for="form4Example4">
               Send me a copy of this message
             </label>

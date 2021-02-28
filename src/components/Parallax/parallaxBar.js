@@ -25,7 +25,7 @@ function ScrollBar() {
             </h1>
             <Link to="/contact">
               <span>
-                <a href="#">
+                <a>
                   <i className="far fa-hand-point-right fa-2x"></i>
                 </a>
               </span>
