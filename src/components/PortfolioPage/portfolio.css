@@ -1,0 +1,25 @@
+.portfolioContainer {
+    padding: 150px 10px 50px 10px;
+    background-color: #f2e9e4;
+    width: 100%;
+}
+
+.portfolioBackground {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+}
+
+.projectsGrid {
+    padding: 0px 100px 150px 100px;
+}
+
+/* .card {
+    padding: 5px 5px 0px 5px;
+} */
+
+.card-footer {
+    background-color: #4a4e69;
+    opacity: 0.9;
+}
