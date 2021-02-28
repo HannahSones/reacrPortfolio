@@ -21,17 +21,6 @@ function Menu() {
           </span>
         </Link>
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarText"
-            aria-controls="navbarText"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i className="fas fa-bars"></i>
-          </button>
 
           <Navigation />
         </div>

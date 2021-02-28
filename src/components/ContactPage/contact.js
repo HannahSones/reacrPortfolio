@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import '../style.css';
-import './contact.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import "../style.css";
+import "./contact.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
   useEffect(() => {
@@ -11,34 +11,62 @@ function Contact() {
   });
 
   return (
-    <form className="text-center border border-light p-5">
+    <div>
+      <div>
+      <img
+        className="contactBackground"
+        src={`${process.env.PUBLIC_URL}/assets/Shapes/Contact.png`}
+      ></img>
+      </div>
+      <div className="contactContainer">
+        <h1>Let's talk</h1>
+        <h4>
+          I'd love to hear how I can help you. Send me a message using the
+          contact form below to see how we can work together.
+        </h4>
+        <form>
+          <div className="form-outline mb-4">
+            <input type="text" className="form-control" />
+            <label className="form-label" for="form4Example1">
+              Name
+            </label>
+          </div>
 
-    <p className="h4 mb-4">Get in touch</p>
-  
-    <input type="text" formControlName="contactFormName" id="defaultContactFormName" mdbInput
-      className="form-control mb-4" placeholder="Name"/>
-   
-    <input type="email" formControlName="contactFormEmail" id="defaultContactFormEmail" mdbInput
-      className="form-control mb-4" placeholder="E-mail"/>
-  
-    <label>Subject</label>
-    <select formControlName="contactFormSubjects" className="browser-default custom-select mb-4">
-      <option value="" disabled>Choose option</option>
-      <option value="1" selected>Ask a question</option>
-      <option value="2">Request a quote</option>
-      <option value="3">Provide feedback</option>
-    </select>
-  
+          <div className="form-outline mb-4">
+            <input type="email" className="form-control" />
+            <label className="form-label" for="form4Example2">
+              Email address
+            </label>
+          </div>
 
-    <div className="form-group">
-      <textarea formControlName="contactFormMessage" className="form-control rounded-0" mdbInput id="exampleFormControlTextarea2"
-        rows="3" placeholder="Message"></textarea>
+          <div className="form-outline mb-4">
+            <textarea
+              className="form-control"
+              rows="4"
+            ></textarea>
+            <label className="form-label" for="form4Example3">
+              Message
+            </label>
+          </div>
+
+          <div className="form-check d-flex justify-content-center mb-4">
+            <input
+              className="form-check-input me-2"
+              type="checkbox"
+              value=""
+            />
+            <label className="form-check-label" for="form4Example4">
+              Send me a copy of this message
+            </label>
+          </div>
+
+          <button type="submit" className="btn btn-block mb-4 sendBtn">
+            Send
+          </button>
+        </form>
+      </div>
     </div>
-  
-    <button mdbBtn color="info" outline="true" block="true" className="z-depth-0 my-4 waves-effect">Send</button>
-  
-  </form>
-  )
+  );
 }
 
 export default Contact;

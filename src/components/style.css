@@ -1,11 +1,11 @@
 html {
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     scroll-behavior: smooth;
     width: 100%;
 }
 
 body { 
-    margin: 0; font-family: 'Varela Round', sans-serif;
+    margin: 0; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#22223b;
 }
 
