@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../style.css';
 import './banner.css';
 import AOS from 'aos';
@@ -26,7 +27,7 @@ function Banner() {
                 </div>
                 <div className="row" data-aos="fade-up" data-aos-duration="2000">
                     <div className="col-md-12">
-                        <a href="#profile" className="btn profileBtn" role="button" aria-pressed="true">Find out more</a>
+                        <a className="btn profileBtn" role="button" aria-pressed="true">Find out more</a>
                     </div>
                 </div>
             </div>

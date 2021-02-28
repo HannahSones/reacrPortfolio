@@ -11,7 +11,7 @@ function Profile() {
   });
 
   return (
-    <section className="profileContainer">
+    <section id="profile" className="profileContainer">
       <div className="container">
         <div className="row">
           <div
@@ -58,8 +58,8 @@ function Profile() {
           >
             <div className="col-md-4">
               <a
-                className="btn"
-                href="assets/Docs/HS_WebDevCV.pdf"
+                className="btn CVbtn"
+                href={`${process.env.PUBLIC_URL}/assets/Docs/HS_WebDevCV.pdf`}
                 target="_blank"
               >
                 View CV

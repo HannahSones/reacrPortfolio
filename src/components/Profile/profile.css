@@ -3,3 +3,13 @@
     background-color: #f2e9e4;
     width: 100%;
 }
+
+.headshot {
+    height: 260px;
+    width: 260px;
+}
+
+.CVbtn:hover {
+    color:#f2e9e4;
+    background-color: #4a4e69;
+}
