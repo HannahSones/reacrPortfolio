@@ -1,25 +1,61 @@
 .portfolioContainer {
-    padding: 150px 10px 50px 10px;
-    background-color: #f2e9e4;
-    width: 100%;
+  padding: 150px 10px 50px 10px;
+  background-color: #f2e9e4;
+  width: 100%;
 }
 
 .portfolioBackground {
-        width: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
 }
 
 .projectsGrid {
-    padding: 0px 100px 150px 100px;
+  padding: 75px 100px 150px 100px;
+  position: relative;
 }
 
-/* .card {
-    padding: 5px 5px 0px 5px;
-} */
+h4 {
+    color:#22223b;
+}
+
+h4 span {
+    color: #4a4e69;
+}
+
+.card-body {
+    padding-bottom: 40px;
+}
 
 .card-footer {
-    background-color: #4a4e69;
-    opacity: 0.9;
+  background-color: #4a4e69;
+  opacity: 0.9;
+}
+
+.fab {
+  color: white;
+  padding: 5px;
+}
+
+.fas {
+    color: white;
+    padding: 5px;
+  }
+
+.projectBtn:hover {
+  background-color: #4a4e69;
+  color: white;
+}
+
+.contactMe {
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+}
+
+.contactBtn {
+    margin: 10px;
+    color: #22223b;
+    background-color: #f2e9e4;
 }
