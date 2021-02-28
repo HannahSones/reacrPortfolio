@@ -24,7 +24,7 @@ It uses Material Design as its CSS framework and HashRouter to display with Gith
 ----------
 
 ## Functionality  
-![React Portfolio]()   
+![React Portfolio](https://github.com/HannahSones/reactPortfolio/blob/main/public/assets/appWalkthrough.gif)   
 
 The homepage displays key information such a my CV, bio and skillsey. Using routing you can click through to other 'pages' including a contact page and portfolio page. Components load onto the page using AOS for animation for improved user experience.
 
@@ -44,7 +44,7 @@ Or you can view the live deployment of the application on [Github Pages](https:/
 ## Further Development
 When I have more time, I would like to improve the app by:
 * Improve the user interface of the portfolio page so that you can filter projects by technology used i.e. React, MongoDB etc.
-* Adding a route to the contact page so that emails can be sent to my personal email address
+* Wiring up the contact form so that emails can be sent directly to my personal email address
 
 -------------
 ## License
